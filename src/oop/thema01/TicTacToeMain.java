@@ -26,7 +26,7 @@ public class TicTacToeMain {
 			// ==================================================================================
 			// Anweisungen anzeigen
 			// ----------------------------------------------------------------------------------
-			System.out.println("Am Zug ist Player: " + player);
+			System.out.println("Noch " + (anzahlFelder-besetzteFelder) + " Züge.\n" + "Am Zug ist Player: " + player);
 			// TODO: aktuelles Spielfeld anzeigen indem ' ' ersetzt wird
 			oop.thema01.TicTacToeUtil.Hilfsfunktionen.spielfeldAnzeigen(' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
 
