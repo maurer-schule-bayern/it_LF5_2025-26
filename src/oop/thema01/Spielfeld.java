@@ -5,9 +5,9 @@ public class Spielfeld {
     // Attribute
     // ----------------------------------------------------------------------------------
 												// Folgende Hilfen können mit STRG + Mausclick direkt im Browser geöffnet werden
-                                                // Hilfe zu Attributen (private): https://himbeere.mail-maurer.de/unterrichtsmaterialien/maurer-f/IT/oop/Hilfe1.html
-                                                // Hilfe zu Attributen (public / Array): https://himbeere.mail-maurer.de/unterrichtsmaterialien/maurer-f/IT/oop/Hilfe2.html
-                                                // Hilfe zu Attributen (mit Initialwert): https://himbeere.mail-maurer.de/unterrichtsmaterialien/maurer-f/IT/oop/Hilfe3.html
+                                                // Hilfe zu Attribute (private): https://himbeere.mail-maurer.de/unterrichtsmaterialien/maurer-f/IT/oop/Hilfe1.html
+                                                // Hilfe zu Attribute (public / Array): https://himbeere.mail-maurer.de/unterrichtsmaterialien/maurer-f/IT/oop/Hilfe2.html
+                                                // Hilfe zu Attribute (mit Initialwert): https://himbeere.mail-maurer.de/unterrichtsmaterialien/maurer-f/IT/oop/Hilfe3.html
 
     // ==================================================================================
     // Methoden
