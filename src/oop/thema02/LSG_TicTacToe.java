@@ -4,9 +4,14 @@ import java.util.Scanner;
 
 import oop.thema01.LSG_Spielfeld;
 
-public class LSG_TicTacToe extends LSG_Spiel {
+public class LSG_TicTacToe {
 	
-	// Attribute
+	// Attribute von allen Spielen
+	protected String name;
+	protected String rules;
+	protected int amountPlayers;
+	
+	// Attribute TicTacToe
 	private int player;		   	// Player kann 0 oder 1 sein - es startet Player 0
 	private int anzahlFelder;  	// das Spiel besteht aus 9 Feldern
 	
@@ -70,5 +75,13 @@ public class LSG_TicTacToe extends LSG_Spiel {
 			player = (player + 1) % 2;
 			return false;
 		}
+	}
+	
+
+	// Game Information
+	public void gameInfo() {
+		System.out.println("Name:\t\t" + name);
+		System.out.println("Anzahl Spieler:\t" + amountPlayers);
+		System.out.println("Regeln:\t\t" + rules);
 	}
 }
