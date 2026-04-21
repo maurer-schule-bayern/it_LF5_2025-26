@@ -12,13 +12,13 @@ public class TicTacToe {
 	protected int amountPlayers;
 	
 	// Attribute TicTacToe
-	private int player;		   	// Player kann 0 oder 1 sein - es startet Player 0
-	private int anzahlFelder;  	// das Spiel besteht aus 9 Feldern
+	private int player = 0;		   	// Player kann 0 oder 1 sein - es startet Player 0
+	private int anzahlFelder = 9;  	// das Spiel besteht aus 9 Feldern
 	
-	private LSG_Spielfeld spielfeld;
-	private int besetzteFelder;
+	private LSG_Spielfeld spielfeld = new LSG_Spielfeld();;
+	private int besetzteFelder = 0;
 
-	private Scanner input; 		// Scanner um Nutzereingaben einzulesen
+	private Scanner input = new Scanner(System.in);; 		// Scanner um Nutzereingaben einzulesen
 	
 	// Konstruktor
 	public TicTacToe() {
@@ -27,12 +27,6 @@ public class TicTacToe {
 				+ "\t\tEs darf immer ein Zeichen auf ein freies Feld gesetzt werden.\n"
 				+ "\t\tWer zuererst eine ganze Reihe / Spalte / Diagonale mit seinem Symbol befüllt hat, gewinnt.";
 		amountPlayers = 2;
-		//
-		player = 0;
-		anzahlFelder = 9;		
-		spielfeld = new LSG_Spielfeld();
-		besetzteFelder = 0;
-		input = new Scanner(System.in);
 	}
 	
 	// Methode zum Ausführen eines Zugs
