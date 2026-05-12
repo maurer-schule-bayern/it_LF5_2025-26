@@ -8,7 +8,6 @@ public class Lehrkraft extends Person {
 		// TODO 
 	}
 
-	@Override
 	public void printInformation() {
 		System.out.println("Name: " + vorname + " " + nachname);
 		System.out.println("Alter: " + alter);
